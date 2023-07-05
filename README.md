@@ -10,6 +10,12 @@ via ```import "@dirtroad/skale-rng/contracts/RNG.sol"```.
 When using this contract you can add it as an inherited contract to take advantage of all of the functions. Example:
 
 ```solidity
+
+// SPDX-License-Identifer: MIT
+pragma solidity ^0.8.19;
+
+import "@dirtroad/skale-rng/contracts/RNG.sol";
+
 contract ExampleRNG is RNG {
 
     uin256 public amount;
