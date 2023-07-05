@@ -1,4 +1,5 @@
 {
+  "version": "0.1.0",
   "name": "@dirtroad/skale-rng",
   "author": {
     "email": "sawyer@dirtroad.dev",
