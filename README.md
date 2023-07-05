@@ -23,3 +23,6 @@ contract ExampleRNG is RNG {
     }
 }
 ```
+
+### Security and Liability
+All code found in this directory/repository including the RNG.sol smart contract is WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
