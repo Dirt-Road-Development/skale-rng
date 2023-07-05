@@ -1,0 +1,10 @@
+{
+  "name": "@dirtroad/skale-rng",
+  "author": {
+    "email": "sawyer@dirtroad.dev",
+    "url": "https://dirtroad.dev"
+  },
+  "devDependencies": {
+    "hardhat": "^2.16.1"
+  }
+}
