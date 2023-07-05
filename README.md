@@ -21,4 +21,5 @@ contract ExampleRNG is RNG {
     function updateAmount() external {
         amount = getRandomNumber(); 
     }
-} ```
+}
+```
