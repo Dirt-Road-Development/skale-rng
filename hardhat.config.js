@@ -1,4 +1,13 @@
 /** @type import('hardhat/config').HardhatUserConfig */
+require("solidity-docgen");
+const compilers = require("./compilers.json");
+
 module.exports = {
-  solidity: "0.8.19",
+  solidity: {
+    compilers
+  },
+  docgen: {
+    pages: "files",
+    output: 'docs',
+  }
 };
